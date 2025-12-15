@@ -24,3 +24,4 @@ jobs:
 
       - name: Build Docker Image
         run: docker build . --file ./Dockerfile --tag academy:$(date +%s)
+        run: docker image ls
