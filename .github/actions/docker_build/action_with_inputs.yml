@@ -1,10 +1,16 @@
 name: Replace-With-Your-Action-Name
 description: Replace-With-Your-Action-Description
 inputs:
-  replace_with_your_input_name:
-    description: "Replace-With-Your-Input-Description"
+  path_dockerfile:
+    description: "Dockerfile Path"
     required: false
-    default: "Replace-With-Your-Input-Default-Value"
+    default: "Dockerfile"
+  image_name:
+    description: "Dockerfile Path"
+    required: true
+  tag_name:
+    description: "Dockerfile Path"
+    required: false
 runs:
   using: composite
   steps:
